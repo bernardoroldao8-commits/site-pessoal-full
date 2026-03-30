@@ -72,3 +72,36 @@
             </div>
         </div>
     </div>
+        <div class="forms">
+<form class="contact-form" action="https://formspree.io/f/xreoqpjd" method="POST">
+  <h3>Envie uma mensagem</h3>
+
+  <div class="form-row">
+    <div class="form-group">
+      <label class="label">Nome</label>
+      <input class="caixa-form" type="text" name="nome" placeholder="Seu nome" required>
+    </div>
+
+    <div class="form-group">
+      <label class="label">E-mail</label>
+      <input  class="caixa-form" type="email" name="email" placeholder="seu@email.com" required>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label class="label">Assunto</label>
+    <input class="caixa-form" type="text" name="assunto" placeholder="Sobre o que você quer falar?">
+  </div>
+
+  <div class="form-group">
+    <label class="label">Mensagem</label>
+    <textarea class="caixa-form" name="mensagem" placeholder="Escreva sua mensagem aqui..." required></textarea>
+  </div>
+
+  <input type="hidden" name="_subject" value="Nova mensagem do site!">
+
+  <button class="btn-send" type="submit">
+    Enviar mensagem 
+  </button>
+</form>
+</div>
