@@ -367,3 +367,37 @@ button:active {
     justify-content: center;
   }
 }
+
+.forms{
+color: #6fdbe9;
+font-family: 'Poppins', sans-serif;
+}
+
+.btn-send{
+  color: #FFFFFF;
+  background-color: rgba(192, 187, 187, 0.9);
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  transition: 0.4s ease;
+}
+
+.btn-send:hover {
+  transform: scale(1.05);
+  background-color: rgb(134, 131, 131);
+  cursor: pointer;
+}
+
+.caixa-form{
+  border: solid;
+  color: #6fdbe9;
+  border-radius: 20px;
+  text-align: center;
+box-sizing: border-box;
+width: 300px;
+}
+
+.label{
+  color: rgb(134, 131, 131);
+}
